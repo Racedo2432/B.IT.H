@@ -1,0 +1,85 @@
+body {
+    background-image: url(./imagenes/guevara\ background\ -\ copia2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #arrastavel {
+    width: 470px;
+    height: 470px;
+    position: absolute;
+    cursor: pointer;
+    top: 270px;
+    left: 40px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .benja {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 1150px;
+    margin-top: 315px;
+  }
+  
+  #contenedor {
+    position: relative;
+  }
+
+  .burbuja{
+    color: black;
+    background-color: white;
+    padding: 60px;
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 40px;
+    position: relative;
+    display: none;
+    font-size: 20px;
+  }
+
+  .burbuja::before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100px;
+    bottom: -30px;
+    left: 80px;
+    z-index: -6;
+    position: absolute;
+    display: block;
+  }
+
+  .burbuja::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: #8a7c5f;
+    border-radius: 100px;
+    bottom: -35px;
+    left: 95px;
+    z-index: -5;
+    position: absolute;
+    display: block;
+  }
+
+
+  
